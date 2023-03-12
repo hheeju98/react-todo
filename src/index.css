@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
   background: linear-gradient(
     106deg,
     rgba(81, 87, 111, 1) 0%,
@@ -31,6 +32,7 @@ body {
   max-width: 500px;
   background-color: var(--color-bg-dark);
   border-radius: 1rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   -webkit-box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.45);
@@ -45,4 +47,9 @@ code {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+button {
+  outline: none;
+  border: none;
 }
