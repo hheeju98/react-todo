@@ -4,6 +4,7 @@
   --color-grey: #d1d1d1;
   --color-text: #22243b;
   --color-accent: #f16e03;
+  --color-white: white;
 }
 
 body {
@@ -44,6 +45,9 @@ code {
     monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
 ul {
   list-style: none;
   padding-left: 0;
