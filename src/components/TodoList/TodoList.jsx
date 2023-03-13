@@ -5,6 +5,8 @@ import styles from "./TodoList.module.css";
 
 export default function TodoList({ filter }) {
   const [todos, setTodos] = useState(() => readTodosFromLocalStorage());
+  // const [todos, setTodos] = useState(readTodosFromLocalStorage);
+  // const [todos, setTodos] = useState(readTodosFromLocalStorage());
 
   const handleAdd = (todo) => {
     setTodos([...todos, todo]);
